@@ -1,0 +1,1 @@
+quertyselector('button').on('click', function() {alert("I forgot")});

@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    background: url("/img/blue_background.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#navbar {
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar .logo {
+    padding: 20px;
+}
+
+#navbar .logo:hover {
+    padding: 20px;
+    color: blue;
+}
+#navbar ul {
+    list-style: none;
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navbar ul li {
+    padding: 20px;
+    font-size: 1rem;
+    transition: all 1s;
+}
+
+#navbar ul li:hover {
+    background: #fff;
+    color: #000;
+}
+
+
+main {
+    text-align: center;
+    height: 100vh;
+}
+
+.container {
+    padding-top: 40%;
+}
+
+.container h1 {
+    font-size: 5rem;
+}
+
+.container span {
+    font-size: 4rem;
+}
+
+.container p {
+    padding: 5px 0 30px 0;
+}
+
+input {
+    padding: .66rem;
+    max-width: 15rem;
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+button {
+    padding: .66rem;
+    margin: 5px;
+    width: 15rem;
+    color: #fff;
+    border: 1px #fff solid;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background: #fff;
+}
+
+footer {
+    display: flex;
+    background: black;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.captcha {
+    width: 70px;
+    height: 70px;
+}
+.container-captcha {
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+    transition: all 1s;
+}
